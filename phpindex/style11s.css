@@ -1,0 +1,29 @@
+/* Badges pour les statuts */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    text-transform: uppercase;
+}
+
+.badge-en_attente {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.badge-en_cours {
+    background-color: #dbeafe;
+    color: #2563eb;
+}
+
+.badge-resolu {
+    background-color: #d1fae5;
+    color: #059669;
+}
+
+.badge-rejete {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
